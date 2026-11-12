@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="jsonlens">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#a78bfa;#22d3ee" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#22d3ee;#a78bfa" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="90" fill="#334155" opacity="0.5">
+    <text x="40" y="150">{</text>
+    <text x="810" y="150">}</text>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="14" fill="#22d3ee" opacity="0.5">
+    <text x="90" y="40">"a": 1
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="4s" repeatCount="indefinite"/></text>
+    <text x="700" y="190">[ 1, 2, 3 ]
+      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="4s" repeatCount="indefinite"/></text>
+    <text x="120" y="195">null
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="5s" repeatCount="indefinite"/></text>
+    <text x="740" y="45">true
+      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="5s" repeatCount="indefinite"/></text>
+  </g>
+  <text x="450" y="108" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="64" font-weight="700" fill="url(#tx)">jsonlens</text>
+  <text x="450" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#cbd5e1">See, query, diff and convert JSON. One file. Zero installs.</text>
+  <rect x="300" y="165" width="300" height="3" rx="1.5" fill="#334155"/>
+  <rect x="300" y="165" width="60" height="3" rx="1.5" fill="#22d3ee">
+    <animate attributeName="x" values="300;540;300" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
