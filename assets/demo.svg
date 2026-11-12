@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-label="jsonlens terminal demo">
+  <style>
+    .l{font-family:Consolas,Menlo,monospace;font-size:15px;opacity:0;animation:show 10s infinite}
+    .p{fill:#22d3ee}.k{fill:#67e8f9}.s{fill:#86efac}.n{fill:#c084fc}.d{fill:#94a3b8}.g{fill:#86efac}.r{fill:#fca5a5}.y{fill:#fde68a}
+    .a1{animation-delay:0s}.a2{animation-delay:1.2s}.a3{animation-delay:1.8s}.a4{animation-delay:2.4s}
+    .a5{animation-delay:4s}.a6{animation-delay:4.6s}.a7{animation-delay:6.2s}.a8{animation-delay:6.8s}.a9{animation-delay:7.4s}
+    @keyframes show{0%{opacity:0}3%{opacity:1}92%{opacity:1}100%{opacity:0}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+  </style>
+  <rect width="760" height="250" rx="12" fill="#0b1220"/>
+  <rect width="760" height="30" rx="12" fill="#1e293b"/>
+  <circle cx="20" cy="15" r="6" fill="#f87171"/><circle cx="40" cy="15" r="6" fill="#fbbf24"/><circle cx="60" cy="15" r="6" fill="#4ade80"/>
+  <text class="l a1" x="20" y="60"><tspan class="p">$</tspan><tspan fill="#e2e8f0"> python jsonlens.py view user.json</tspan></text>
+  <text class="l a2" x="20" y="84" fill="#e2e8f0">{</text>
+  <text class="l a3" x="20" y="104"><tspan class="k">  "name"</tspan><tspan fill="#e2e8f0">: </tspan><tspan class="s">"Ada"</tspan><tspan fill="#e2e8f0">,</tspan></text>
+  <text class="l a4" x="20" y="124"><tspan class="k">  "age"</tspan><tspan fill="#e2e8f0">: </tspan><tspan class="n">36</tspan><tspan fill="#e2e8f0">,  </tspan><tspan class="d">...</tspan></text>
+  <text class="l a5" x="20" y="154"><tspan class="p">$</tspan><tspan fill="#e2e8f0"> python jsonlens.py get data.json "users[*].name"</tspan></text>
+  <text class="l a6" x="20" y="174" class="s"><tspan class="s">"Ada"</tspan><tspan class="s">  "Linus"  "Grace"</tspan></text>
+  <text class="l a7" x="20" y="204"><tspan class="p">$</tspan><tspan fill="#e2e8f0"> python jsonlens.py diff old.json new.json</tspan></text>
+  <text class="l a8" x="20" y="224"><tspan class="r">- port = 80</tspan><tspan class="g">   + port = 8080</tspan></text>
+  <text class="l a9" x="20" y="242"><tspan class="y">~ debug: false -> true</tspan></text>
+</svg>
